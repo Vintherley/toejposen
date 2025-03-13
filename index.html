@@ -4,140 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Island+Moments&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sevillana&family=Yatra+One&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <footer>
-        <div class="main-box-footer">
-            <div class="footer-box1">
-                <h3>Tøjposen ApS</h3>
-                <p>CVR: 45142299</p>
-                <p><img src="img/logos_google-maps.png" alt=""> Farverhus <br>6200 Aabenraa</p>
-                <p><img src="img/emial.png" alt="email ikon"> info@toejposen.dk</p>
-            </div>
-            <div class="footer-box2">
-                <h3 class="h3-box2">Praktisk information</h3>
-                <ul>
-                    <li><a href="https://www.xn--tjposen-q1a.dk/policies/refund-policy">Salgs- og leveringsbetingelser</a></li>
-                    <hr>
-                    <li><a href="https://www.xn--tjposen-q1a.dk/policies/privacy-policy">Beskyttelse af persondata</a></li>
-                    <hr>
-                    <li><a href="https://www.xn--tjposen-q1a.dk/policies/terms-of-service">Vaskeanvisning</a></li>
-                    <hr>
-                </ul>
-            </div>
-            <div class="footer-box3">
-                <h3 class="footer-h3-box3">Følg os her</h3>
-                <p>Del gerne din oplevelse</p>
-                <div class="footer-box3-some">
-                <a href="https://www.instagram.com/toejposen_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="img/insta.png" alt="instagram"></a>
-                <a href="https://www.facebook.com/profile.php?id=61563209729831&locale=da_DK"><img src="img/uil_facebook.png" alt="facebook"></a>
-            </div>
-            </div>
-        </div>
-    </footer>
+    <nav>
+        <h2>logo</h2>
+    </nav>
+    
+    <div class="return-politcs">
+        <h1 class="retrun-headeing">Retur politik</h1>
+        <p> Vi ønsker, at du er tilfreds med dit køb. Hvis du af en eller anden grund ikke er det, kan du returnere din vare inden for 30 dage fra modtagelsen. <br> <br>
+            For at varen kan returneres, skal den være i ubrugt stand, i sin originale emballage og med alle mærker intakte. Vi anbefaler, at du kontakter vores kundeservice, før du sender varen retur, så vi kan give dig en returformular og yderligere vejledning. <br> <br>
+            Køber er ansvarlig for at betale returfragt, medmindre varen er defekt eller forkert leveret. Når vi har modtaget og godkendt den returnerede vare, behandler vi refunderingen inden for 14 dage. <br> <br>
+            <em> <strong>Bemærk</strong></em>, at det kan tage yderligere tid, før beløbet er synligt på din konto, afhængigt af din bank eller kortudsteder. Hvis du har spørgsmål om returnering, er du velkommen til at kontakte os.
+        </p>
+    </div>
 </body>
 </html>
+justify-content: space-around;
+
 <style>
-    .main-box-footer{
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        background-color: #ccc5ba;
+        height: 80px;
+        margin-top: -20px;
+    }
+    
+    .main-return{
         display: flex;
         justify-content: space-around;
-        background-color: #ccc5ba;
+        background-color: #6f6866;
+        color: white;
         padding: 20px;
+        height: 500px;
+        width: 100%;
     }
-    .footer-box1{
+    .return-button{
+        position: relative;
         display: flex;
-        flex-direction: column;
-        align-items: left;
-        
-    }
-    .footer-box1 h3{
-        font-size: 30px;
-        margin: 0 0 5px 0;
-    }
-
-    .footer-box1 p{
-        margin: 8px 0;
-        font-size: 18px;
-    }
-    .footer-box2{
-        display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
-    }
-    .h3-box2{
-        text-decoration: underline;
-        font-size: 30px;
-        margin: 0 0 5px 0;
-    }
-    .footer-box2 ul{
-        list-style-type: none;
-        
-    }
-    .footer-box2 ul li{
-        margin: 10px ;
-        
-    }
-    .footer-box2 ul li a{
+        background-color: #5D7A92;
         text-decoration: none;
-        color: black;
+        color: white;
+    }
+    .return-button a{
+        position: absolute;
+        display: flex;
+        bottom: 10px;
+        right: 30px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
         font-size: 18px;
-        margin: -10px;
+        padding: 10px 20px;
+        background-color: #121212;
+        width: 200px;
+        height: 30px;
     }
-    hr {
-    width: 300px; /* Eller en anden bredde */
-    height: 1px; /* Tykkelsen på stregen */
-    border: none; /* Fjern standardkanten */
-    background-color: black; /* Sort baggrundsfarve */
-    margin: 0 -60px; /* Tilføj eventuelt lidt afstand */
-}
-.footer-box3{
-    display: flex;
-    flex-direction: column;
-}
-.footer-h3-box3{
-  font-family: "Island Moments", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
-  margin: 0;
-}
-.footer-box3-some{
-    display: flex;
-    justify-content: space-around;
-    margin: 10px 0;
-}
-       /* Media Query for smaller screens */
-       @media (max-width: 768px) {
-            .main-box-footer {
-                flex-direction: column;
-                align-items: center;
-                padding: 10px;
-            }
-
-            .footer-box1, .footer-box2, .footer-box3 {
-                align-items: center;
-                text-align: center;
-            }
-
-            .footer-box2 ul li {
-                margin: 5px 0;
-            }
-
-            .footer-box3-some {
-                justify-content: center;
-            }
-
-            .footer-h3-box3 {
-                font-size: 35px;
-            }
-            .h3-box2{
-        text-decoration: underline;
+    .return-tekst{
         font-size: 20px;
-        margin: 18px 0 5px 0;
     }
-        }
+    .retrun-headeing{
+        display: flex;
+        justify-content: center;
+        color: black;
+        margin: 50px 0;
+        font-size: 35px;
+    }
+    .return-politcs p{
+       width: 90%; 
+       display: flex;
+       flex-direction: column;
+     margin-left: 20%;
+     margin-right: 20%;
+    }
+       
 </style>
